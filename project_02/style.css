@@ -1,47 +1,49 @@
-.container {
-    width: 575px;
-    height: 825px;
-    background-color: #272727;
-    color:aliceblue;
-    /* padding-left: 30px; */
-  }
-  #height,
-  #weight {
-    width: 150px;
-    height: 25px;
-    margin-top: 30px;
+body {
+  background-color: #b5d9e6;
   }
   
-  #weight-guide {
-    margin-left: 75px;
-    margin-top: 25px;
+  h1{
+    font-weight:lighter;
+    text-align:center;
   }
   
-  #results {
-    font-size: 35px;
-    margin-left: 90px;
-    margin-top: 20px;
-    color: rgb(241, 241, 241);
+  .box {
+  
+    background-color: aliceblue;
+      margin-top:1.7cm;
+      margin-bottom:1cm;
+      margin-left:12cm;
+      margin-right:12cm;
+      padding:0.5cm;
+      border-radius: 1cm;
   }
   
-  button {
-    width: 150px;
-    height: 35px;
-    margin-left: 90px;
-    margin-top: 25px;
-    background-color: #fff;
-    padding: 1px 30px;
-    border-radius: 8px;
-    color: #212121;
-    text-decoration: none;
-    border: 2px solid #212121;
-  
-    font-size: 25px;
+  button{
+    width: 3cm;
+    height:1cm;
+    border-radius: 0.3cm;
+    background-color: #51b9db;
+    font-size: medium;
+    font-weight: 500;
+    al
   }
   
-  h1 {
-    padding-left: 15px;
-    padding-top: 25px;
-    
+  button:hover{
+    background-color: #327287;
   }
+  
+  label{
+     font-size:medium;
+     font-weight:bold
+  }
+  
+  input{
+    width: 5cm;
+    height:0.6cm;
+    border-width: 4px;
+    border-color:black;
+    border-radius: 0.2cm;
+    margin : 6px;
+  }
+  
   
