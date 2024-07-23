@@ -1,0 +1,43 @@
+body{
+    background-color: #F1F1F2;
+}
+
+.base{
+    background-color: #90AFC5;
+    height: 10cm;
+    width: 10cm;
+    margin-top:2.5cm;
+    margin-bottom: cm;
+    margin-left: 12.5cm;
+    margin-right: 12cm;
+    padding: 1cm;
+    border-radius: 1cm;
+    box-shadow: 0.2cm 0.2cm #525151;
+}
+
+#result{
+    height: 2cm;
+    width: 9.5cm;
+    margin-bottom: 1cm;
+    border: solid  #31473A;
+    border-radius: 0.3cm;
+    font-size:xx-large;
+    text-align: right;
+}
+
+button{
+    height: 1cm;
+    width: 2cm;
+    margin-bottom:0.5cm;
+    margin-left: 0.3cm;
+    border-radius: 0.2cm;
+    background-color:#A1D6E2;
+}
+
+.calculate{
+    width:4.4cm;
+}
+
+button:hover{
+    background-color: #1995AD;
+}
