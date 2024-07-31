@@ -1,20 +1,10 @@
-console.log("hello");
-
 const buttons = document.querySelectorAll('button');
-const body = document.querySelector( 'body' );
+const screen = document.getElementById('result');
+console.log(buttons);
 
-buttons.foreach((button) => {
-
-button.addEventListener('click' , (e) => {
-    console.log(e);
-    console.log(e.target);
-    console.log(e.target.id);
-
-    if(e.target.id == 1)
-        {
-            console.log(1);
-        }
-})
-
-
+buttons.forEach(function(b){
+    b.addEventListener('click' , function(e){
+        console.log(e.target);
+        
+    })
 })
