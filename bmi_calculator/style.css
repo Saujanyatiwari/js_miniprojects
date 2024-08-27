@@ -1,0 +1,47 @@
+.container {
+    margin-top: 1cm ;
+    margin-left: 11cm;
+    width: 500px;
+    height: 550px;
+    padding-left: 4cm;
+    border-radius: 1cm;
+    box-shadow: 4px 4px #595b5b;
+    background-color: #7aabab;
+  }
+  #height,
+  #weight {
+    width: 150px;
+    height: 25px;
+    margin-top: 30px;
+  }
+  
+  #weight-guide {
+    margin-left: 75px;
+    margin-top: 25px;
+  }
+  
+  #results {
+    font-size: 35px;
+    margin-left: 90px;
+    margin-top: 20px;
+    color: rgb(45, 43, 43);
+  }
+  
+  button {
+    width: 150px;
+    height: 35px;
+    margin-left: 90px;
+    margin-top: 25px;
+    border-radius: 8px;
+    font-size: 20px;
+  }
+  button:hover{
+    background-color: rgb(76, 100, 117);
+  }
+  
+  h1 {
+    padding-left: 15px;
+    padding-top: 25px;
+    
+  }
+  
