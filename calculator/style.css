@@ -1,5 +1,5 @@
 body{
-    background-color: #F1F1F2;
+    background-color: #131313;
 }
 
 .base{
@@ -15,7 +15,7 @@ body{
     box-shadow: 0.2cm 0.2cm #525151;
 }
 
-#result{
+p{
     height: 2cm;
     width: 9.5cm;
     margin-bottom: 1cm;
@@ -23,6 +23,7 @@ body{
     border-radius: 0.3cm;
     font-size:xx-large;
     text-align: right;
+    background-color: whitesmoke;
 }
 
 button{
